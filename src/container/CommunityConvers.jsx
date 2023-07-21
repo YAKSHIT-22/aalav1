@@ -63,7 +63,6 @@ const CommunityConvers = () => {
               >
                 9/28/2022
               </time>
-             
             </header>
             <p>Omg , I won 100 % zomato food coupon . I love you AALA!!</p>
           </article>

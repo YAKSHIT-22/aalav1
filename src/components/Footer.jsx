@@ -122,7 +122,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="" className="link whitespace-nowrap">
-                      Idea
+                      Ideas
                     </Link>
                   </li>
                   <li>
