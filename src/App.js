@@ -8,6 +8,8 @@ const App = () => {
     <Routes>
       <Route exact path="/" element={<LandingPage />} />
       <Route exact path="/community" element={<CommunityPage />} />
+      <Route exact path="/registration" element={<CommunityPage />} />
+     
     </Routes>
   );
 };
