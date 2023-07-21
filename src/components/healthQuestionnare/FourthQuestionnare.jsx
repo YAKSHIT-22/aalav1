@@ -1,8 +1,9 @@
-// this is the fourth question of drive 
 import React from 'react'
 
-export const FourthQuestionnare = () => {
+const FourthQuestionnare = () => {
   return (
     <div>FourthQuestionnare</div>
   )
 }
+
+export default FourthQuestionnare

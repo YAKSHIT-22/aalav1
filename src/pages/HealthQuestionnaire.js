@@ -5,6 +5,11 @@ import { db } from '../firebase';
 import FirstQuestionnare from '../components/healthQuestionnare/FirstQuestionnare';
 import SecondQuestionnare from '../components/healthQuestionnare/SecondQuestionnare';
 import ThirdQuestionnare from '../components/healthQuestionnare/ThirdQuestionnare';
+import FourthQuestionnare from '../components/healthQuestionnare/FourthQuestionnare';
+import FifthQuestionnare from '../components/healthQuestionnare/FifthQuestionnare';
+import SixthQuestionnare from '../components/healthQuestionnare/SixthQuestionnare';
+import SeventhQuestionnare from '../components/healthQuestionnare/SeventhQuestionnare';
+import EighthQuestionnare from '../components/healthQuestionnare/EighthQuestionnare';
 import { toast } from 'react-toastify';
 import { auth } from '../firebase';
 import { doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
@@ -69,9 +74,14 @@ const HealthQuestionnaire = () => {
   };
 
   const question = [
-    'What categories you belong in?',
-    'What describes you most?',
-    'What describes you most?',
+    'Would you run 3km for a Pizza?',
+    'Grooming Habits',
+    'Movie Night',
+    'Exercise',
+    'Coupon',
+    'Beverage Selection',
+    'Sleep Habits',
+    'Sun Protection',
   ];
   const questionnare = [
     <FirstQuestionnare
@@ -93,8 +103,44 @@ const HealthQuestionnaire = () => {
       handleChange={handleChange}
       score={score}
       setScore={setScore}
+    />,
+    <FourthQuestionnare
+      nextStep={nextStep}
+      prevStep={prevStep}
+      handleChange={handleChange}
+      score={score}
+      setScore={setScore}
+    />,
+    <FifthQuestionnare
+      nextStep={nextStep}
+      prevStep={prevStep}
+      handleChange={handleChange}
+      score={score}
+      setScore={setScore}
+    />,
+    <SixthQuestionnare
+      nextStep={nextStep}
+      prevStep={prevStep}
+      handleChange={handleChange}
+      score={score}
+      setScore={setScore}
+    />,
+    <SeventhQuestionnare
+      nextStep={nextStep}
+      prevStep={prevStep}
+      handleChange={handleChange}
+      score={score}
+      setScore={setScore}
+    />,
+    <EighthQuestionnare
+      nextStep={nextStep}
+      prevStep={prevStep}
+      handleChange={handleChange}
+      score={score}
+      setScore={setScore}
       handleSubmit={handleSubmit}
     />,
+    
   ];
   return (
     <section

@@ -1,6 +1,6 @@
 import React from 'react';
-import heavy from '../../assets/heavy.svg';
-import light from '../../assets/light.svg';
+import hfirst1 from '../../assets/hfirst1.svg';
+import hfirst from '../../assets/hfirst.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
@@ -28,7 +28,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">HEAVY VEHICLE DRIVER</aside>
+                  <aside className="code text-2xl p-1">Yes</aside>
                   <input
                     type="radio"
                     id="1"
@@ -39,12 +39,12 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={heavy} alt="heavy" className="mx-auto h-[15rem]" />
+                <img src={hfirst} alt="hfirst1" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end">
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover h-[2.5rem] opacity-0 w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -57,7 +57,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">LIGHT VEHICLE DRIVER</aside>
+                  <aside className="code text-2xl p-1">No</aside>
                   <input
                     type="radio"
                     id="2"
@@ -70,12 +70,12 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={light} alt="light" className="mx-auto h-[15rem]" />
+                <img src={hfirst1} alt="hfirst2" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end ">
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover h-[2.5rem] opacity-0 w-[2.5rem]"
                   />
                 </div>
               </div>
