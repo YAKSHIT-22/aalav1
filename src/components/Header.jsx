@@ -3,7 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
 import logo from '../assets/logo.svg';
 import { onAuthStateChanged } from 'firebase/auth';
-import { auth } from '../firebase';
+import { getAuth } from 'firebase/auth';
 const Header = () => {
   const navigate = useNavigate();
   const [isOpen, setIsOpen] = React.useState(false);
@@ -13,12 +13,13 @@ const Header = () => {
       if (window.innerWidth > 1024) setIsOpen(false);
     });
   }, []);
-
+  const auth = getAuth();
   useEffect(() => {
+    const auth = getAuth();
     onAuthStateChanged(auth, (user) => {
       setLoggedIn(user ? true : false);
     });
-  }, []);
+  }, [auth]);
   return (
     <div className="sticky top-0 z-20 max-h-screen text-white">
       <header className="noise-container shadow-lg">

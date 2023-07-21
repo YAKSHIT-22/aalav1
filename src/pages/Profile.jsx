@@ -1,8 +1,8 @@
 import React from 'react';
-import { auth } from 'firebase/auth';
+import {auth} from '../firebase';
 import { Link } from 'react-router-dom';
 const Profile = () => {
-  
+
   const user = auth.currentUser;
   return (
     <>

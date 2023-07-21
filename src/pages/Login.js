@@ -2,12 +2,12 @@ import React from 'react';
 import driving from '../assets/driving.svg';
 import logo from '../assets/logo.svg';
 import { Link } from 'react-router-dom';
-import { signInWithEmailAndPassword, getAuth } from 'firebase/auth';
+import { signInWithEmailAndPassword} from 'firebase/auth';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
-import {auth} from '../firebase'
+import {auth} from '../firebase';
 const DriveRegistration = () => {
   const variants = {
     hidden: { opacity: 0 },
