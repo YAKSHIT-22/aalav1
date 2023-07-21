@@ -127,7 +127,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link to="/themes/" className="link whitespace-nowrap">
-                      Company
+                      Collaborations
                     </Link>
                   </li>
                 </ul>
