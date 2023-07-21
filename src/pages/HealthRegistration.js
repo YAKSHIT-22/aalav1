@@ -1,5 +1,5 @@
 import React from 'react';
-import driving from '../assets/driving.svg';
+import health from '../assets/health.svg';
 import logo from '../assets/logo.svg';
 import DrivingRegister from '../components/DrivingRegister';
 import CarDetails from '../components/CarDetails';
@@ -105,8 +105,8 @@ const HealthRegistration = () => {
               </div>
               <div className="flex items-center justify-center">
                 <img
-                  src={driving}
-                  alt="driving"
+                  src={health}
+                  alt="health"
                   className="mx-auto w-auto h-[30rem]"
                 />
               </div>
