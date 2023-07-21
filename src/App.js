@@ -10,7 +10,7 @@ import DrivingQuestionnaire from './pages/DrivingQuestionnaire';
 import CalculatingScore from './pages/CalculatingScore';
 import Profile from './pages/Profile';
 import DriveRecommendation from './pages/DriveRecommendation';
-
+// this is a react app 
 const App = () => {
   return (
     <Routes>
