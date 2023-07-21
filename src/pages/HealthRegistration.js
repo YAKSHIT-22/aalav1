@@ -70,13 +70,13 @@ const HealthRegistration = () => {
   };
   const form = [
     <HealthRegister
-      key={DrivingRegister}
+      key={HealthRegister}
       handleChange={handleChange}
       nextStep={nextStep}
       formData={formData}
     />,
     <HealthDetails
-      key={CarDetails}
+      key={HealthDetails}
       handleChange={handleChange}
       nextStep={nextStep}
       formData={formData}
