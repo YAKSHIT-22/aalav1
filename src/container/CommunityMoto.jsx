@@ -8,7 +8,6 @@ const CommunityMoto = () => {
         <h2 className="text-3xl sm:text-6xl px-2 s:px-4 text-center text-gray-50 font-[600]  max-w-4xl">
           The AALA Community
         </h2>
-
         <p className="text-sm s:text-base font-light px-4 s:px-8 text-center text-gray-100 sm:text-xl max-w-2xl lg:max-w-4xl">
           A remarkable blend of enthusiasts, fitness aficionados, and insurance
           advocates. Empowering environment, inspiring each other towards
@@ -16,7 +15,6 @@ const CommunityMoto = () => {
           growth and shared achievements.
         </p>
         <Link
-          data-get-started=""
           to="/registration"
           className="bg-white hover:bg-transparent hover:border hover:border-white hover:text-white transition-all border border-transparent rounded-full font-medium h-[4rem] max-w-2xl flex items-center justify-center text-[#17191e] px-10 py-4 text-center text-lg"
         >
