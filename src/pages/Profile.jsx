@@ -25,7 +25,7 @@ const Profile = () => {
               <li className="">
                 <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
-                  href=""
+                  to=""
                   rel="prefetch"
                 >
                   Run with AALA
@@ -34,7 +34,7 @@ const Profile = () => {
               <li className="">
                 <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
-                  href=""
+                  to=""
                   rel="prefetch"
                 >
                  Drive with AALA
@@ -43,7 +43,7 @@ const Profile = () => {
               <li className="">
                 <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
-                  href=""
+                  to=""
                   rel="prefetch"
                 >
                  AALA Streaks
@@ -52,7 +52,7 @@ const Profile = () => {
               <li className="">
                 <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
-                  href=""
+                  to=""
                   rel="prefetch"
                 >
                   AALA personal Community
@@ -63,7 +63,7 @@ const Profile = () => {
           <div className="p-6 lg:p-8 xl:p-10 lg:border-b border-gray-500 ">
             <h2 className="code ">Rewards</h2>
             <p className="body mb-6 mt-4 text-gray-200 ">Coins</p>
-            <Link href="" className="button button-sm ">
+            <Link to="" className="button button-sm ">
               {/* <svg
                 data-hk="0-0"
                 width="24"
@@ -90,7 +90,7 @@ const Profile = () => {
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
                   <Link
-                    href=""
+                    to=""
                     rel="prefetch"
                     className="block outline-none"
                   >
@@ -119,7 +119,7 @@ const Profile = () => {
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
                   <Link
-                    href=""
+                    to=""
                     rel="prefetch"
                     className="block outline-none"
                   >
@@ -148,7 +148,7 @@ const Profile = () => {
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
                   <Link
-                    href=""
+                    to=""
                     rel="prefetch"
                     className="block outline-none"
                   >
@@ -177,7 +177,7 @@ const Profile = () => {
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
                   <Link
-                    href=""
+                    to=""
                     rel="prefetch"
                     className="block outline-none"
                   >
@@ -207,7 +207,7 @@ const Profile = () => {
               <ul className="flex items-center gap-4">
                 <li className="hidden sm:inline-block">
                   <Link
-                    href=""
+                    to=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150"
                     aria-current="page"
                   >
@@ -216,7 +216,7 @@ const Profile = () => {
                 </li>
                 <li className="hidden sm:inline-block">
                   <Link
-                    href=""
+                    to=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white"
                   >
                     2
@@ -224,7 +224,7 @@ const Profile = () => {
                 </li>
                 <li className="hidden sm:inline-block">
                   <Link
-                    href=""
+                    to=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white"
                   >
                     3
@@ -232,7 +232,7 @@ const Profile = () => {
                 </li>
                 <li className="hidden sm:inline-block">
                   <Link
-                    href=""
+                    to=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white"
                   >
                     4
@@ -245,7 +245,7 @@ const Profile = () => {
                 </li>
                 <li className="next ease rounded-full border border-white transition-colors duration-150">
                   <Link
-                    href=""
+                    to=""
                     rel="prefetch"
                     className="flex h-10 w-10 items-center justify-center"
                   >
