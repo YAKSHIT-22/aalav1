@@ -4,7 +4,8 @@ const AboutSection = () => {
   return (
     <section
       className="flex items-center justify-center flex-col relative overflow-x-hidden pb-32  bg-grid p-4 gap-1"
-      id="about">
+      id="about"
+    >
       <div className="flex items-center flex-col justify-center py-4">
         <h2 className="text-5xl sm:text-6xl px-2 s:px-4 text-center text-gray-50 lg:text-7xl xl:text-8xl font-[600]  max-w-3xl">
           AALA
@@ -29,10 +30,7 @@ const AboutSection = () => {
               Real-World Insurance Comparison
             </aside>
             <dl className="relative my-2 flex flex-1 flex-col gap-2">
-              <div
-                
-                className="group flex w-full flex-col justify-center gap-x-3 gap-y-1 md:flex-row"
-              >
+              <div className="group flex w-full flex-col justify-center gap-x-3 gap-y-1 md:flex-row">
                 <dt className="heading-4 flex items-center whitespace-nowrap text-sm  md:text-white md:basis-52 md:justify-end md:text-2xl">
                   Bajaj Allianz
                 </dt>
@@ -81,7 +79,7 @@ const AboutSection = () => {
                 </dd>
               </div>
               <div className="group flex w-full flex-col justify-center gap-x-3 gap-y-1 md:flex-row">
-                <dt className="heading-4 flex items-center whitespace-nowrap text-sm md:text-2xl md:text-white md:basis-52 md:justify-end md:text-2xl">
+                <dt className="heading-4 flex items-center whitespace-nowrap text-sm md:text-2xl md:text-white md:basis-52 md:justify-end">
                   Kotak Life
                 </dt>
                 <dd className="flex w-full items-center gap-3 rounded-lg border border-gray-400 p-1 md:border-gray-200">
