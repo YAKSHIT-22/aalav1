@@ -24,3 +24,29 @@ body {
   background-color: #181a1f;
 }
 
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1536px;
+}
+.noise {
+  z-index: -20;
+  position: absolute;
+  inset: 0;
+  background-image: url(./assets/noise.webp);
+  opacity: 0.4;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+}
+
+.noise-container {
+  position: relative;
+  isolation: isolate;
+  background-color: #17191e;
+}
