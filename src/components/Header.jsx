@@ -104,7 +104,7 @@ const Header = () => {
         </nav>
         <div
           className={
-            'flex items-center justify-center fixed top-0 z-[2] w-screen min-h-screen h-full' +
+            'flex items-start justify-center fixed top-0 z-[2] w-screen min-h-screen h-full' +
             (isOpen ? ' showpopup' : ' noshowpopup')
           }
         >
