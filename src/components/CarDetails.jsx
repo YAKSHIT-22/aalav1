@@ -177,7 +177,7 @@ const CarDetails = ({
               </div>
             </div>
           </form>
-          <div className="flex items-center justify-center flex-row w-full gap-2">
+          <div className="flex items-center justify-center flex-row w-full gap-2 mb-24 md:mb-12">
             <button
               onClick={prevStep}
               className="button button-white w-full relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
