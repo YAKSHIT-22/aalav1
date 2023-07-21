@@ -380,7 +380,46 @@ const CommunitySection = () => {
           </div>
         </article>
 
-       
+        <div className="grid lg:col-span-3">
+          <article className="noise-panel flex flex-col min-w-0 relative bg-blue-purple-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
+            <div className="flex flex-1 flex-col lg:flex-row">
+              <div className="flex flex-1 flex-col gap-6 p-6 text-left">
+                <aside className="code">Community</aside>
+                <div className="flex flex-1 flex-col justify-center gap-6 lg:px-8 lg:pb-12">
+                  <h3 className="heading-3 text-gray-100">
+                    <span className="lg:text-6xl lg:leading-[1.1]">
+                      Join our community
+                    </span>
+                  </h3>
+                  <p className="text-xl text-gray-100">
+                    Regularly organizing community challenges and events, such
+                    as virtual races or safe driving competitions, to foster
+                    friendly competition and camaraderie among users.
+                  </p>
+                  <div className="flex items-center justify-start">
+                    <Link
+                      to="/community"
+                      className="bg-white hover:bg-transparent hover:border hover:border-white hover:text-white transition-all border border-transparent rounded-full font-medium h-[3rem] flex items-center justify-center text-[#17191e] px-6 py-2 text-center"
+                    >
+                      Join AALA Community
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="relative h-[420px] overflow-hidden sm:hidden lg:block lg:h-[480px] lg:flex-1">
+                <img
+                  src={community}
+                  width="1183"
+                  height="1153"
+                  alt=""
+                  className="absolute left-16 top-8 h-[150%] w-[150%] rotate-[180] max-w-none object-contain object-left-top"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
   );

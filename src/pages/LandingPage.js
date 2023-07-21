@@ -7,7 +7,7 @@ const LandingPage = () => {
     <>
       <HeroSection />
       <AboutSection />
-      <CommunitySection/>
+      <CommunitySection />
     </>
   );
 };
