@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const CommunityHero = () => {
-  return (
-    <div>CommunityHero</div>
-  )
-}
+  return <div>CommunityHero</div>;
+};
 
-export default CommunityHero
+export default CommunityHero;
