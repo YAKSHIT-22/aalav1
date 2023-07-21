@@ -1,9 +1,9 @@
-import React from 'react'
-
+import React from 'react';
+import HeroSection from '../container/HeroSection';
 const LandingPage = () => {
   return (
-    <div>LandingPage</div>
+    <HeroSection/>
   )
-}
+};
 
-export default LandingPage
+export default LandingPage;

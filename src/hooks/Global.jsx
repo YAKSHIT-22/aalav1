@@ -1,13 +1,23 @@
-import React from 'react'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import React from 'react';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+import { useLocation } from 'react-router';
 
-export const Global = ({children}) => {
+export const Global = ({ children }) => {
+  const location = useLocation();
   return (
-    <>
-    <Header/>
-    {children}
-    <Footer/>
-    </>
-  )
-}
+    <div className="isolate flex min-h-screen flex-col overflow-x-hidden">
+      {location.pathname === '/registration/drive' ||
+      location.pathname === '/registration/health' ||
+      location.pathname === '/login' ? null : (
+        <Header />
+      )}
+      {children}
+      {location.pathname === '/registration/drive' ||
+      location.pathname === '/registration/health' ||
+      location.pathname === '/login' ? null : (
+        <Footer />
+      )}
+    </div>
+  );
+};
