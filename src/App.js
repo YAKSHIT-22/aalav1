@@ -9,7 +9,8 @@ const App = () => {
       <Route exact path="/" element={<LandingPage />} />
       <Route exact path="/community" element={<CommunityPage />} />
       <Route exact path="/registration" element={<CommunityPage />} />
-     
+      <Route exact path="/registration/drive" element={<CommunityPage />} />
+      <Route exact path="/registration/heath" element={<CommunityPage />} />
     </Routes>
   );
 };
