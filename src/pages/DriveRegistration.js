@@ -56,7 +56,7 @@ const DriveRegistration = () => {
       const formDataCopy = { ...formData, coins: 50 };
       delete formDataCopy.password;
       formDataCopy.timestamp = serverTimestamp();
-      await setDoc(doc(db, 'users', user.uid), formDataCopy);
+      await setDoc(doc(db, 'usersDrive', user.uid), formDataCopy);
       toast.success('Account Creation successful');
       toast.warning('50 Coins Added to Your Account', {
         icon: '🚀',
