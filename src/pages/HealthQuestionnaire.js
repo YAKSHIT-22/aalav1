@@ -9,7 +9,7 @@ import { toast } from 'react-toastify';
 import { auth } from '../firebase';
 import { doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
 
-const DrivingQuestionnaire = () => {
+const HealthQuestionnaire = () => {
  
   const navigate = useNavigate();
   const [step, setStep] = React.useState(0);
