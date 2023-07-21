@@ -55,7 +55,7 @@ const Profile = () => {
                   href=""
                   rel="prefetch"
                 >
-                  Unlock New Possibilities with Hybrid Rendering
+                  AALA personal Community
                 </Link>
               </li>
             </ul>
@@ -64,7 +64,7 @@ const Profile = () => {
             <h2 className="code ">Rewards</h2>
             <p className="body mb-6 mt-4 text-gray-200 ">Coins</p>
             <Link href="" className="button button-sm ">
-              <svg
+              {/* <svg
                 data-hk="0-0"
                 width="24"
                 height="24"
@@ -78,8 +78,8 @@ const Profile = () => {
                   d="M2.88 16.88C2.3182 17.4425 2.00264 18.205 2.00264 19C2.00264 19.795 2.3182 20.5575 2.88 21.12C3.4425 21.6818 4.205 21.9974 5 21.9974C5.795 21.9974 6.5575 21.6818 7.12 21.12C7.64992 20.5513 7.93841 19.7991 7.9247 19.0219C7.91099 18.2447 7.59614 17.5032 7.04649 16.9535C6.49684 16.4039 5.75529 16.089 4.97809 16.0753C4.20089 16.0616 3.4487 16.3501 2.88 16.88ZM5.71 19.71C5.5217 19.8983 5.2663 20.0041 5 20.0041C4.7337 20.0041 4.4783 19.8983 4.29 19.71C4.1017 19.5217 3.99591 19.2663 3.99591 19C3.99591 18.7337 4.1017 18.4783 4.29 18.29C4.38296 18.1963 4.49356 18.1219 4.61542 18.0711C4.73728 18.0203 4.86799 17.9942 5 17.9942C5.13201 17.9942 5.26272 18.0203 5.38458 18.0711C5.50644 18.1219 5.61704 18.1963 5.71 18.29C5.80373 18.383 5.87812 18.4936 5.92889 18.6154C5.97966 18.7373 6.0058 18.868 6.0058 19C6.0058 19.132 5.97966 19.2627 5.92889 19.3846C5.87812 19.5064 5.80373 19.617 5.71 19.71ZM5 12C4.73478 12 4.48043 12.1054 4.29289 12.2929C4.10536 12.4804 4 12.7348 4 13C4 13.2652 4.10536 13.5196 4.29289 13.7071C4.48043 13.8946 4.73478 14 5 14C6.32608 14 7.59785 14.5268 8.53553 15.4645C9.47322 16.4021 10 17.6739 10 19C10 19.2652 10.1054 19.5196 10.2929 19.7071C10.4804 19.8946 10.7348 20 11 20C11.2652 20 11.5196 19.8946 11.7071 19.7071C11.8946 19.5196 12 19.2652 12 19C12 17.1435 11.2625 15.363 9.94975 14.0503C8.63699 12.7375 6.85652 12 5 12ZM5 8C4.73478 8 4.48043 8.10536 4.29289 8.29289C4.10536 8.48043 4 8.73478 4 9C4 9.26522 4.10536 9.51957 4.29289 9.70711C4.48043 9.89464 4.73478 10 5 10C7.38695 10 9.67613 10.9482 11.364 12.636C13.0518 14.3239 14 16.6131 14 19C14 19.2652 14.1054 19.5196 14.2929 19.7071C14.4804 19.8946 14.7348 20 15 20C15.2652 20 15.5196 19.8946 15.7071 19.7071C15.8946 19.5196 16 19.2652 16 19C15.9923 16.084 14.8353 13.2886 12.78 11.22C10.7114 9.16472 7.91601 8.00775 5 8ZM15.61 8.39C12.7888 5.58754 8.97655 4.01018 5 4C4.73478 4 4.48043 4.10536 4.29289 4.29289C4.10536 4.48043 4 4.73478 4 5C4 5.26522 4.10536 5.51957 4.29289 5.70711C4.48043 5.89464 4.73478 6 5 6C8.44781 6 11.7544 7.36964 14.1924 9.80761C16.6304 12.2456 18 15.5522 18 19C18 19.2652 18.1054 19.5196 18.2929 19.7071C18.4804 19.8946 18.7348 20 19 20C19.2652 20 19.5196 19.8946 19.7071 19.7071C19.8946 19.5196 20 19.2652 20 19C19.9898 15.0235 18.4125 11.2112 15.61 8.39Z"
                   fill="currentColor"
                 ></path>
-              </svg>
-              <span className="code ">RSS</span>
+              </svg> */}
+              <span className="code ">Offers</span>
             </Link>
           </div>
         </aside>
@@ -99,7 +99,7 @@ const Profile = () => {
                         className="code text-gray-200"
                         datetime="2023-06-29T00:00:00.000Z"
                       >
-                        June 29, 2023
+                        July 22, 2023
                       </time>
                     </header>
 
@@ -107,10 +107,10 @@ const Profile = () => {
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
-                        Content for Everyone
+                      User Profiles
                       </h3>
                       <p className="text-gray-200">
-                        How AALA
+                      create profiles on the platform, providing basic information such as name, profile picture, and location. 
                       </p>
                     </div>
                   </Link>
@@ -128,7 +128,7 @@ const Profile = () => {
                         className="code text-gray-200"
                         datetime="2023-06-07T00:00:00.000Z"
                       >
-                        June 7, 2023
+                        June 22, 2023
                       </time>
                     </header>
 
@@ -136,10 +136,10 @@ const Profile = () => {
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
-                       AALA
+                      Leaderboards
                       </h3>
                       <p className="text-gray-200">
-                        AALA
+                      leaderboards to showcase top-performing drivers based on their driving scores and streaks.
                       </p>
                     </div>
                   </Link>
@@ -157,7 +157,7 @@ const Profile = () => {
                         className="code text-gray-200"
                         datetime="2023-02-03T00:00:00.000Z"
                       >
-                        February 3, 2023
+                      June 22, 2023
                       </time>
                     </header>
 
@@ -165,10 +165,10 @@ const Profile = () => {
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
-                        AALA
+                      Driving Score
                       </h3>
                       <p className="text-gray-200">
-                        AALA
+                      Create a scoring system that evaluates each user's driving behavior based on factors such as speed, acceleration, braking, adherence to traffic rules, and overall safety. 
                       </p>
                     </div>
                   </Link>
@@ -186,19 +186,16 @@ const Profile = () => {
                         className="code text-gray-200"
                         datetime="2023-01-27T00:00:00.000Z"
                       >
-                        January 27, 2023
+                        June 22, 2023
                       </time>
                     </header>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
-                        Astro Community Awards 2022
+                      Gamification Elements
                       </h3>
                       <p className="text-gray-200">
-                        The Astro Community Awards for 2022 have been announced!
-                        These awards recognize the Astro community members who
-                        went above and beyond the past year. Read more to find
-                        out who was recognized!
+                      Implement gamification elements like badges, trophies, and virtual rewards to incentivize positive driving behavior. These rewards can be linked to achievements like completing a certain number of safe drives, earning high scores, or reaching specific milestones.
                       </p>
                     </div>
                   </Link>
