@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 const Contact = () => {
   return (
     <section
-      className="contact relative mx-auto flex w-full max-w-screen-xl flex-col items-center justify-end overflow-hidden px-4 pb-0"
+      className="relative mx-auto flex w-full max-w-screen-xl flex-col items-center justify-end overflow-hidden px-4 pb-0"
       id="contact"
     >
       <Link
@@ -21,7 +21,6 @@ const Contact = () => {
         </h2>
       </div>
       <a
-        data-get-started=""
         href="mailto:yakshitgarg25@gmail.com"
         className="bg-white hover:bg-transparent hover:border hover:border-white hover:text-white transition-all border border-transparent rounded-full font-medium h-[4rem] flex items-center justify-center text-[#17191e] px-10 py-4 text-center text-lg"
       >
