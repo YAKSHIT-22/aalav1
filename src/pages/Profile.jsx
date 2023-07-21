@@ -1,9 +1,35 @@
-import React from 'react';
-import {auth} from '../firebase';
+import React, { useEffect } from 'react';
+import {auth, db} from '../firebase';
 import { Link } from 'react-router-dom';
+import { doc, getDoc } from 'firebase/firestore';
 const Profile = () => {
-
-  const user = auth.currentUser;
+   const [user, setUser] = React.useState(null);
+   const [formData, setFormData] = React.useState({
+    name: '',
+    email: '',
+    phone: '',
+    gender: '',
+    coins: 0,
+    score: 0,
+   })
+  useEffect(() => {
+    auth.onAuthStateChanged((user) => {
+      setUser(user);
+    });
+  },[])
+  useEffect(() => {
+    async function fetch(){
+    if (!user) {
+      return;
+    }
+    const docRef = doc(db, 'users', auth.currentUser.uid);
+    const docSnap = await getDoc(docRef);
+    if (docSnap.exists()) {
+      setFormData({ ...docSnap.data() });
+    }
+    console.log(formData, 1);}
+    fetch();
+  }, [user]);
   return (
     <>
       <div className="lg:py-18 grid-container relative py-12 sm:py-14 md:py-16 xl:py-20 text-gray-50">
@@ -62,7 +88,7 @@ const Profile = () => {
           </div>
           <div className="p-6 lg:p-8 xl:p-10 lg:border-b border-gray-500 ">
             <h2 className="code ">Rewards</h2>
-            <p className="body mb-6 mt-4 text-gray-200 ">Coins</p>
+            <p className="body mb-6 mt-4 text-green-500 font-black text-lg">Coins: {formData.coins}</p>
             <Link to="" className="button button-sm ">
               {/* <svg
                 data-hk="0-0"
@@ -110,7 +136,7 @@ const Profile = () => {
                       User Profiles
                       </h3>
                       <p className="text-gray-200">
-                      create profiles on the platform, providing basic information such as name, profile picture, and location. 
+                      Create profiles on the platform, providing basic information such as name, profile picture, and location. 
                       </p>
                     </div>
                   </Link>
@@ -139,7 +165,7 @@ const Profile = () => {
                       Leaderboards
                       </h3>
                       <p className="text-gray-200">
-                      leaderboards to showcase top-performing drivers based on their driving scores and streaks.
+                      Leaderboards to showcase top-performing drivers based on their driving scores and streaks.
                       </p>
                     </div>
                   </Link>
