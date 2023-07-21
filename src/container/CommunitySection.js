@@ -379,8 +379,6 @@ const CommunitySection = () => {
           </div>
         </article>
 
-        
-
         <div className="grid lg:col-span-3">
           <article className="noise-panel flex flex-col min-w-0 relative bg-blue-purple-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
             <div className="flex flex-1 flex-col lg:flex-row">
