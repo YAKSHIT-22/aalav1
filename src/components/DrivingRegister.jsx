@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-const DrivingRegister = ({ handleChange, nextStep, formData }) => {
+const DrivingRegister = ({ handleChange, nextStep, formData, handleSubmit }) => {
   const variants = {
     hidden: { opacity: 0 },
     enter: { opacity: 1 },
@@ -95,7 +95,7 @@ const DrivingRegister = ({ handleChange, nextStep, formData }) => {
             </div>
           </form>
           <button
-            onClick={nextStep}
+            onClick={handleSubmit}
             className="button mb-24 md:mb-12 button-white w-full relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
           >
             Next

@@ -2,7 +2,6 @@ import React from 'react';
 import driving from '../assets/driving.svg';
 import logo from '../assets/logo.svg';
 import DrivingRegister from '../components/DrivingRegister';
-import CarDetails from '../components/CarDetails';
 import { Link, useNavigate } from 'react-router-dom';
 import {
   createUserWithEmailAndPassword,
@@ -21,11 +20,6 @@ const DriveRegistration = () => {
     email: '',
     phone: '',
     gender: '',
-    vehicleType: '',
-    vehicleName: '',
-    companyName: '',
-    averageSpeed: '',
-    averageHours: '',
     coins: 0,
     score: 0,
   });
@@ -41,14 +35,12 @@ const DriveRegistration = () => {
   };
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      
+    try { 
       const userCredential = await createUserWithEmailAndPassword(
         auth,
         formData.email,
         formData.phone
       );
-
       updateProfile(auth.currentUser, {
         displayName: formData.name,
       });
@@ -56,7 +48,7 @@ const DriveRegistration = () => {
       const formDataCopy = { ...formData, coins: 50 };
       delete formDataCopy.password;
       formDataCopy.timestamp = serverTimestamp();
-      await setDoc(doc(db, 'usersDrive', user.uid), formDataCopy);
+      await setDoc(doc(db, 'users', user.uid), formDataCopy);
       toast.success('Account Creation successful');
       toast.warning('50 Coins Added to Your Account', {
         icon: '🚀',
@@ -72,13 +64,6 @@ const DriveRegistration = () => {
       handleChange={handleChange}
       nextStep={nextStep}
       formData={formData}
-    />,
-    <CarDetails
-      key={CarDetails}
-      handleChange={handleChange}
-      nextStep={nextStep}
-      formData={formData}
-      prevStep={prevStep}
       handleSubmit={handleSubmit}
     />,
   ];

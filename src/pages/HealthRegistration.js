@@ -11,7 +11,6 @@ import { doc, serverTimestamp, setDoc } from 'firebase/firestore';
 import { toast } from 'react-toastify';
 import { auth } from '../firebase';
 import HealthRegister from '../components/HealthRegister';
-import HealthDetails from '../components/HealthDetails';
 
 const HealthRegistration = () => {
   const navigate = useNavigate();
@@ -21,11 +20,6 @@ const HealthRegistration = () => {
     email: '',
     phone: '',
     gender: '',
-    vehicleType: '',
-    vehicleName: '',
-    companyName: '',
-    averageSpeed: '',
-    averageHours: '',
     coins: 0,
     score: 0,
   });
@@ -56,7 +50,7 @@ const HealthRegistration = () => {
       const formDataCopy = { ...formData, coins: 50 };
       delete formDataCopy.password;
       formDataCopy.timestamp = serverTimestamp();
-      await setDoc(doc(db, 'usersHealth', user.uid), formDataCopy);
+      await setDoc(doc(db, 'users', user.uid), formDataCopy);
       toast.success('Account Creation successful');
       toast.warning('50 Coins Added to Your Account', {
         icon: '🚀',
@@ -72,13 +66,6 @@ const HealthRegistration = () => {
       handleChange={handleChange}
       nextStep={nextStep}
       formData={formData}
-    />,
-    <HealthDetails
-      key={HealthDetails}
-      handleChange={handleChange}
-      nextStep={nextStep}
-      formData={formData}
-      prevStep={prevStep}
       handleSubmit={handleSubmit}
     />,
   ];
@@ -98,7 +85,7 @@ const HealthRegistration = () => {
             <div className="flex items-center justify-center flex-col h-full gap-6">
               <div className="flex items-center justify-center p-4 w-full">
                 <h1 className="text-4xl px-2 s:px-4 text-center text-gray-800 font-bold sm:max-w-xl uppercase">
-                  “Protecting What Matters Most: Your Shield in Uncertain Times”
+                  “Health is a state of complete harmony of the body, mind, and spirit”
                 </h1>
               </div>
               <div className="flex items-center justify-center">

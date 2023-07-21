@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
-import { getAuth, onAuthStateChanged, updateProfile } from 'firebase/auth';
+import { useNavigate } from 'react-router-dom';
+import { getAuth, onAuthStateChanged } from 'firebase/auth';
 import { db } from '../firebase';
 import FirstQuestionnare from '../components/healthQuestionnare/FirstQuestionnare';
 import SecondQuestionnare from '../components/healthQuestionnare/SecondQuestionnare';
@@ -19,11 +19,6 @@ const HealthQuestionnaire = () => {
     email: '',
     phone: '',
     gender: '',
-    vehicleType: '',
-    vehicleName: '',
-    companyName: '',
-    averageSpeed: '',
-    averageHours: '',
     coins: 0,
     score: 0,
   });
