@@ -36,7 +36,7 @@ const SecondQuestionnare = ({
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">RASH DRIVER</aside>
+                  <aside className="code p-1">Every 3 Days</aside>
                   <input
                     type="radio"
                     id="1"
@@ -47,12 +47,12 @@ const SecondQuestionnare = ({
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={rash} alt="rash" className="mx-auto h-[15rem]" />
+                <img src={hsecond} alt="rash" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end">
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -65,7 +65,7 @@ const SecondQuestionnare = ({
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">CAREFUL DRIVER</aside>
+                  <aside className="code p-1">Every Week</aside>
                   <input
                     type="radio"
                     id="2"
@@ -79,7 +79,7 @@ const SecondQuestionnare = ({
                   />
                 </div>
                 <img
-                  src={careful}
+                  src={hsecond2}
                   alt="careful"
                   className="mx-auto h-[15rem]"
                 />
@@ -87,7 +87,7 @@ const SecondQuestionnare = ({
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
