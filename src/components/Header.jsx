@@ -24,7 +24,7 @@ const Header = () => {
       <header className="noise-container shadow-lg">
         <div className="noise"></div>
         <nav className="px-[1rem] mx-auto w-full max-w-screen-2xl md:px-6 flex h-[5rem] justify-center items-center">
-    <Link
+          <Link
             to="/"
             title="Home"
             data-home-link=""
