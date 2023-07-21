@@ -1,5 +1,6 @@
 import React from 'react';
 import { auth } from 'firebase/auth';
+import { Link } from 'react-router-dom';
 const Profile = () => {
   
   const user = auth.currentUser;
@@ -22,47 +23,47 @@ const Profile = () => {
             <h2 className="code ">Popular Challenges</h2>
             <ul className="mt-4 space-y-4 ">
               <li className="">
-                <a
+                <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
                   href=""
                   rel="prefetch"
                 >
                   AALA
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
                   href=""
                   rel="prefetch"
                 >
                   AALA
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
                   href=""
                   rel="prefetch"
                 >
                   AALA
-                </a>
+                </Link>
               </li>
               <li className="">
-                <a
+                <Link
                   className="body link-underline border-pink-light text-lg text-pink-light "
                   href=""
                   rel="prefetch"
                 >
                   Unlock New Possibilities with Hybrid Rendering
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="p-6 lg:p-8 xl:p-10 lg:border-b border-gray-500 ">
             <h2 className="code ">Rewards</h2>
             <p className="body mb-6 mt-4 text-gray-200 ">Coins</p>
-            <a href="" className="button button-sm ">
+            <Link href="" className="button button-sm ">
               <svg
                 data-hk="0-0"
                 width="24"
@@ -79,7 +80,7 @@ const Profile = () => {
                 ></path>
               </svg>
               <span className="code ">RSS</span>
-            </a>
+            </Link>
           </div>
         </aside>
 
@@ -88,7 +89,7 @@ const Profile = () => {
             <ul className="flex max-w-screen-md flex-col gap-y-4 md:gap-y-6 lg:gap-y-8 ">
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
-                  <a
+                  <Link
                     href=""
                     rel="prefetch"
                     className="block outline-none"
@@ -112,12 +113,12 @@ const Profile = () => {
                         How AALA
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </article>
               </li>
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
-                  <a
+                  <Link
                     href=""
                     rel="prefetch"
                     className="block outline-none"
@@ -141,12 +142,12 @@ const Profile = () => {
                         AALA
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </article>
               </li>
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
-                  <a
+                  <Link
                     href=""
                     rel="prefetch"
                     className="block outline-none"
@@ -170,12 +171,12 @@ const Profile = () => {
                         AALA
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </article>
               </li>
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
-                  <a
+                  <Link
                     href=""
                     rel="prefetch"
                     className="block outline-none"
@@ -200,7 +201,7 @@ const Profile = () => {
                         out who was recognized!
                       </p>
                     </div>
-                  </a>
+                  </Link>
                 </article>
               </li>
             </ul>
@@ -208,37 +209,37 @@ const Profile = () => {
             <nav aria-label="Pagination" className="mx-auto  D776PWUY">
               <ul className="flex items-center gap-4 D776PWUY">
                 <li className="hidden sm:inline-block D776PWUY">
-                  <a
+                  <Link
                     href=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 D776PWUY"
                     aria-current="page"
                   >
                     1
-                  </a>
+                  </Link>
                 </li>
                 <li className="hidden sm:inline-block D776PWUY">
-                  <a
+                  <Link
                     href=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white D776PWUY"
                   >
                     2
-                  </a>
+                  </Link>
                 </li>
                 <li className="hidden sm:inline-block D776PWUY">
-                  <a
+                  <Link
                     href=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white D776PWUY"
                   >
                     3
-                  </a>
+                  </Link>
                 </li>
                 <li className="hidden sm:inline-block D776PWUY">
-                  <a
+                  <Link
                     href=""
                     className="relative rounded-md w-10 h-10 flex items-center justify-center border border-transparent transition-colors duration-150 hover:border-white focus:border-white D776PWUY"
                   >
                     4
-                  </a>
+                  </Link>
                 </li>
                 <li className="sm:hidden D776PWUY">
                   <p aria-current="page" className="D776PWUY">
@@ -246,7 +247,7 @@ const Profile = () => {
                   </p>
                 </li>
                 <li className="next ease rounded-full border border-white transition-colors duration-150 D776PWUY">
-                  <a
+                  <Link
                     href=""
                     rel="prefetch"
                     className="flex h-10 w-10 items-center justify-center D776PWUY"
@@ -266,7 +267,7 @@ const Profile = () => {
                         fill="currentColor"
                       ></path>
                     </svg>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </nav>
