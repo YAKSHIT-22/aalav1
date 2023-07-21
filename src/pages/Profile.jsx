@@ -28,7 +28,7 @@ const Profile = () => {
                   href=""
                   rel="prefetch"
                 >
-                  AALA
+                  Run with AALA
                 </Link>
               </li>
               <li className="">
@@ -37,7 +37,7 @@ const Profile = () => {
                   href=""
                   rel="prefetch"
                 >
-                  AALA
+                 Drive with AALA
                 </Link>
               </li>
               <li className="">
@@ -46,7 +46,7 @@ const Profile = () => {
                   href=""
                   rel="prefetch"
                 >
-                  AALA
+                 AALA Streaks
                 </Link>
               </li>
               <li className="">
