@@ -2,9 +2,9 @@ import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { getAuth, onAuthStateChanged, updateProfile } from 'firebase/auth';
 import { db } from '../firebase';
-import FirstQuestionnare from '../components/driveQuestionnare/FirstQuestionnare';
-import SecondQuestionnare from '../components/driveQuestionnare/SecondQuestionnare';
-import ThirdQuestionnare from '../components/driveQuestionnare/ThirdQuestionnare';
+import FirstQuestionnare from '../components/healthQuestionnare/FirstQuestionnare';
+import SecondQuestionnare from '../components/healthQuestionnare/SecondQuestionnare';
+import ThirdQuestionnare from '../components/healthQuestionnare/ThirdQuestionnare';
 import { toast } from 'react-toastify';
 import { auth } from '../firebase';
 import { doc, getDoc, serverTimestamp, updateDoc } from 'firebase/firestore';
@@ -119,4 +119,4 @@ const DrivingQuestionnaire = () => {
   );
 };
 
-export default DrivingQuestionnaire;
+export default HealthQuestionnaire;

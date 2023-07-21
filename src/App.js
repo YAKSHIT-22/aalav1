@@ -10,6 +10,7 @@ import DrivingQuestionnaire from './pages/DrivingQuestionnaire';
 import CalculatingScore from './pages/CalculatingScore';
 import Profile from './pages/Profile';
 import DriveRecommendation from './pages/DriveRecommendation';
+import HealthQuestionnaire from './pages/HealthQuestionnaire';
 // this is a react app 
 const App = () => {
   return (
@@ -34,6 +35,11 @@ const App = () => {
         exact
         path="/registration/drive/questionnaire"
         element={<DrivingQuestionnaire />}
+      />
+      <Route
+        exact
+        path="/registration/health/questionnaire"
+        element={<HealthQuestionnaire />}
       />
       <Route
         exact
