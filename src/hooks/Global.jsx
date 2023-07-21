@@ -3,7 +3,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import { useLocation } from 'react-router';
 
-export const Global = ({ children }) => {
+const Global = ({ children }) => {
   const location = useLocation();
   return (
     <div className="isolate flex min-h-screen flex-col overflow-x-hidden">
@@ -21,3 +21,5 @@ export const Global = ({ children }) => {
     </div>
   );
 };
+
+export default Global;
