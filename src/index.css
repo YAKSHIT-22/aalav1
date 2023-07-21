@@ -50,3 +50,95 @@ body {
   isolation: isolate;
   background-color: #17191e;
 }
+
+.button.button-white:before {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 9999px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter;
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.link {
+  --tw-text-opacity: 1;
+  color: rgb(242 246 250 / var(--tw-text-opacity));
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 0.15s;
+}
+
+.showpopup {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+  transition: all 1.5s ease-in-out;
+}
+
+.noshowpopup {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(1000px);
+  transition: all 1.5s ease-in-out;
+}
+.landing-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  text-align: center;
+}
+
+.landing-section:before {
+  position: absolute;
+  content: '';
+  z-index: -1;
+  top: 0%;
+  bottom: 10%;
+  width: 150%;
+  left: -25%;
+  background: url(./assets/noise.webp) repeat,
+    linear-gradient(83.21deg, #00febe 0%, #ff5500 100%);
+  background-blend-mode: overlay;
+  -webkit-mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 70%);
+  mask-image: radial-gradient(rgba(0, 0, 0, 0.5), transparent 70%);
+}
+
+.bg-grid {
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, #23262d 1px, transparent 1px),
+    linear-gradient(to bottom, #23262d 1px, transparent 1px);
+  background-position: top center;
+  image-rendering: pixelated;
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    10%,
+    white,
+    90%,
+    transparent
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent,
+    10%,
+    white,
+    90%,
+    transparent
+  );
+}
