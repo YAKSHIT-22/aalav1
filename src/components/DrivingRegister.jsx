@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const DrivingRegister = () => {
-  return (
-    <div>DrivingRegister</div>
-  )
-}
+  return <div>DrivingRegister</div>;
+};
 
-export default DrivingRegister
+export default DrivingRegister;
