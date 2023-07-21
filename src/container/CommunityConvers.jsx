@@ -1,9 +1,7 @@
-import React from 'react'
+import React from 'react';
 
 const CommunityConvers = () => {
-  return (
-    <div>CommunityConvers</div>
-  )
-}
+  return <div>CommunityConvers</div>;
+};
 
-export default CommunityConvers
+export default CommunityConvers;
