@@ -17,7 +17,7 @@ const DrivingRegister = ({ handleChange, nextStep, formData }) => {
       className="flex items-start justify-start flex-col h-full gap-4 w-full"
     >
       <div className="flex items-start justify-start w-full">
-        <h1 className="text-5xl text-center text-gray-50 font-bold sm:max-w-4xl">
+        <h1 className="text-5xl text-left text-gray-50 font-bold sm:max-w-4xl">
           Registration Form
         </h1>
       </div>
