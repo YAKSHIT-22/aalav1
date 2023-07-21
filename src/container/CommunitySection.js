@@ -15,7 +15,7 @@ const CommunitySection = () => {
           </strong>
         </h2>
       </div>
-      <div className="mx-auto grid min-w-0 max-w-screen-xl grid-cols-1 gap-4 px-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-auto grid min-w-0 max-w-screen-xl grid-cols-1 gap-5 px-4 sm:grid-cols-2 lg:grid-cols-3">
         <article className="noise-panel flex flex-col min-w-0 relative bg-blue-purple-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
           <svg
             width="140"
