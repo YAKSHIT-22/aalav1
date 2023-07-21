@@ -135,94 +135,7 @@ const CommunityBeliefs = () => {
             </p>
           </div>
         </article>
-        <article className="noise-panel flex flex-col min-w-0 relative bg-blue-green-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
-          <svg
-            width="113"
-            height="123"
-            viewBox="0 0 113 123"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-            className="absolute right-0 top-6"
-          >
-            <g opacity="0.2" filter="url(#filter0_f_252_1350)">
-              <circle cx="61" cy="61.5" r="56.5" fill="white"></circle>
-            </g>
-            <g opacity="0.4" filter="url(#filter1_f_252_1350)">
-              <circle cx="61.0001" cy="61.5" r="39.4434" fill="white"></circle>
-            </g>
-            <circle
-              opacity="0.4"
-              cx="60.9999"
-              cy="61.5001"
-              r="23.4528"
-              fill="white"
-            ></circle>
-            <defs>
-              <filter
-                id="filter0_f_252_1350"
-                x="0.0226417"
-                y="0.522642"
-                width="121.955"
-                height="121.955"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood
-                  flood-opacity="0"
-                  result="BackgroundImageFix"
-                ></feFlood>
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                ></feBlend>
-                <feGaussianBlur
-                  stdDeviation="2.23868"
-                  result="effect1_foregroundBlur_252_1350"
-                ></feGaussianBlur>
-              </filter>
-              <filter
-                id="filter1_f_252_1350"
-                x="17.0793"
-                y="17.5793"
-                width="87.8415"
-                height="87.8416"
-                filterUnits="userSpaceOnUse"
-                color-interpolation-filters="sRGB"
-              >
-                <feFlood
-                  flood-opacity="0"
-                  result="BackgroundImageFix"
-                ></feFlood>
-                <feBlend
-                  mode="normal"
-                  in="SourceGraphic"
-                  in2="BackgroundImageFix"
-                  result="shape"
-                ></feBlend>
-                <feGaussianBlur
-                  stdDeviation="2.23868"
-                  result="effect1_foregroundBlur_252_1350"
-                ></feGaussianBlur>
-              </filter>
-            </defs>
-          </svg>
-          <div className="flex flex-1 flex-col gap-6 p-6 text-left">
-            <aside className="code">Content</aside>
-            <div className="before:float-right before:h-1 before:w-32">
-              <h3 className="heading-3 text-gray-100">
-                User Generated Content
-              </h3>
-            </div>
-            <p className="body text-gray-100">
-              AALA encourages users to share their experiences, driving tips,
-              and fitness journeys, creating a collaborative environment where
-              knowledge and insights are exchanged.
-            </p>
-          </div>
-        </article>
-
+        
         <article className="noise-panel flex flex-col min-w-0 relative bg-red-pink-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
           <svg
             width="105"
@@ -377,6 +290,94 @@ const CommunityBeliefs = () => {
             </p>
           </div>
         </article>
+        <article className="noise-panel flex flex-col min-w-0 relative bg-blue-green-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
+          <svg
+            width="113"
+            height="123"
+            viewBox="0 0 113 123"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className="absolute right-0 top-6"
+          >
+            <g opacity="0.2" filter="url(#filter0_f_252_1350)">
+              <circle cx="61" cy="61.5" r="56.5" fill="white"></circle>
+            </g>
+            <g opacity="0.4" filter="url(#filter1_f_252_1350)">
+              <circle cx="61.0001" cy="61.5" r="39.4434" fill="white"></circle>
+            </g>
+            <circle
+              opacity="0.4"
+              cx="60.9999"
+              cy="61.5001"
+              r="23.4528"
+              fill="white"
+            ></circle>
+            <defs>
+              <filter
+                id="filter0_f_252_1350"
+                x="0.0226417"
+                y="0.522642"
+                width="121.955"
+                height="121.955"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                ></feBlend>
+                <feGaussianBlur
+                  stdDeviation="2.23868"
+                  result="effect1_foregroundBlur_252_1350"
+                ></feGaussianBlur>
+              </filter>
+              <filter
+                id="filter1_f_252_1350"
+                x="17.0793"
+                y="17.5793"
+                width="87.8415"
+                height="87.8416"
+                filterUnits="userSpaceOnUse"
+                color-interpolation-filters="sRGB"
+              >
+                <feFlood
+                  flood-opacity="0"
+                  result="BackgroundImageFix"
+                ></feFlood>
+                <feBlend
+                  mode="normal"
+                  in="SourceGraphic"
+                  in2="BackgroundImageFix"
+                  result="shape"
+                ></feBlend>
+                <feGaussianBlur
+                  stdDeviation="2.23868"
+                  result="effect1_foregroundBlur_252_1350"
+                ></feGaussianBlur>
+              </filter>
+            </defs>
+          </svg>
+          <div className="flex flex-1 flex-col gap-6 p-6 text-left">
+            <aside className="code">Content</aside>
+            <div className="before:float-right before:h-1 before:w-32">
+              <h3 className="heading-3 text-gray-100">
+                User Generated Content
+              </h3>
+            </div>
+            <p className="body text-gray-100">
+              AALA encourages users to share their experiences, driving tips,
+              and fitness journeys, creating a collaborative environment where
+              knowledge and insights are exchanged.
+            </p>
+          </div>
+        </article>
+
       </div>
     </section>
   );
