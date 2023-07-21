@@ -31,6 +31,21 @@ const Team = () => {
             </div>
           </div>
         </article>
+        <article className="noise-panel flex flex-col min-w-0 relative text-gray-200">
+          <div className="flex flex-1 flex-col gap-6 p-6 text-left ">
+            <div className="flex h-full flex-col justify-between ">
+              <aside className="code">Yakshit Garg</aside>
+              <img
+                src={yakshit}
+                alt="yakshit"
+                className="object-cover mx-auto w-auto h-[20rem]"
+              />
+              <h3 className="heading-3 text-gray-100">
+                "First, solve the problem. Then, write the code."
+              </h3>
+            </div>
+          </div>
+        </article>
        
       </div>
     </section>
