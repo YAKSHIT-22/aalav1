@@ -13,7 +13,7 @@ const Header = () => {
       if (window.innerWidth > 1024) setIsOpen(false);
     });
   }, []);
-  
+
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       setLoggedIn(user ? true : false);
