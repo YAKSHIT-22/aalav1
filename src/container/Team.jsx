@@ -46,7 +46,51 @@ const Team = () => {
             </div>
           </div>
         </article>
-       
+        <article className="noise-panel flex flex-col min-w-0 relative text-gray-200">
+          <div className="flex flex-1 flex-col gap-6 p-6 text-left ">
+            <div className="flex h-full flex-col justify-between ">
+              <aside className="code">Ananaya Bansal</aside>
+              <img
+                src={ananaya}
+                alt="ananaya"
+                className="object-cover mx-auto w-auto h-[20rem]"
+              />
+              <h3 className="heading-3 text-gray-100">
+                "Technology is a useful servant but a dangerous master."
+              </h3>
+            </div>
+          </div>
+        </article>
+        <article className="noise-panel flex flex-col min-w-0 relative text-gray-200">
+          <div className="flex flex-1 flex-col gap-6 p-6 text-left ">
+            <div className="flex h-full flex-col justify-between ">
+              <aside className="code">Vimeet</aside>
+              <img
+                src={vimeet}
+                alt="vimmet"
+                className="object-cover mx-auto w-auto h-[20rem]"
+              />
+              <h3 className="heading-3 text-gray-100">
+                "Premature optimization is the root of all evil."
+              </h3>
+            </div>
+          </div>
+        </article>
+        <article className="noise-panel flex flex-col min-w-0 relative text-gray-200">
+          <div className="flex flex-1 flex-col gap-6 p-6 text-left ">
+            <div className="flex h-full flex-col justify-between ">
+              <aside className="code">Vaishnavi</aside>
+              <img
+                src={vaishnavi}
+                alt="vaishnavi"
+                className="object-cover mx-auto w-auto h-[20rem]"
+              />
+              <h3 className="heading-3 text-gray-100">
+                "Software being 'Done' is like lawn being 'Mowed'."
+              </h3>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
   );
