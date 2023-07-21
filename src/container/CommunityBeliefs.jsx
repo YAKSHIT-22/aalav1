@@ -135,7 +135,7 @@ const CommunityBeliefs = () => {
             </p>
           </div>
         </article>
-        
+
         <article className="noise-panel flex flex-col min-w-0 relative bg-red-pink-gradient text-gray-100 md:hover:scale-105 transition ease-in-out duration-500">
           <svg
             width="105"
@@ -377,7 +377,6 @@ const CommunityBeliefs = () => {
             </p>
           </div>
         </article>
-
       </div>
     </section>
   );
