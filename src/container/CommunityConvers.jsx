@@ -35,12 +35,12 @@ const CommunityConvers = () => {
                 alt=""
                 className="h-10 w-10 object-cover rounded-full border border-white"
               />
-              <strong className="text-white">Ananaya</strong>
+              <strong className="text-white">Mukul</strong>
               <time
                 className="text-xs text-gray-200"
-                datetime="2022-09-28T00:00:00.000Z"
+                datetime="2021-09-12T00:00:00.000Z"
               >
-                9/28/2022
+                9/12/2021
               </time>
             </header>
             <p>
@@ -56,13 +56,14 @@ const CommunityConvers = () => {
                 alt=""
                 className="h-10 w-10 object-cover rounded-full border border-white"
               />
-              <strong className="text-white">Mukul</strong>
+              <strong className="text-white">Ananaya</strong>
               <time
                 className="text-xs text-gray-200"
-                datetime="2021-09-12T00:00:00.000Z"
+                datetime="2022-09-28T00:00:00.000Z"
               >
-                9/12/2021
+                9/28/2022
               </time>
+             
             </header>
             <p>Omg , I won 100 % zomato food coupon . I love you AALA!!</p>
           </article>
