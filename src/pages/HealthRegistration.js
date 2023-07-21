@@ -1,8 +1,6 @@
 import React from 'react';
 import health from '../assets/health.svg';
 import logo from '../assets/logo.svg';
-import DrivingRegister from '../components/DrivingRegister';
-import CarDetails from '../components/CarDetails';
 import { Link, useNavigate } from 'react-router-dom';
 import {
   createUserWithEmailAndPassword,
