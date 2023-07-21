@@ -4,7 +4,7 @@ import logo from '../assets/logo.svg';
 const Contact = () => {
   return (
     <section
-      className="relative mx-auto flex w-full max-w-screen-xl flex-col items-center justify-end overflow-hidden px-4 pb-0"
+      className="contact relative mx-auto flex w-full max-w-screen-xl flex-col items-center justify-end overflow-hidden px-4 pb-0"
       id="contact"
     >
       <Link
