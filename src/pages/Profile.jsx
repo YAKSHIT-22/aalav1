@@ -129,7 +129,7 @@ const Profile = () => {
                       </time>
                     </header>
 
-                    {/* <img src="/_astro/cover-image.ba583d50.webp" width="725" height="241" alt="Content for Everyone" className="my-8" loading="lazy" decoding="async"> */}
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="725" height="241" alt="Content for Everyone" className="my-8" loading="lazy" decoding="async"/>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
