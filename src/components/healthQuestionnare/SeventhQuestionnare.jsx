@@ -1,7 +1,7 @@
 // this is the Seven question of drive 
 import React from 'react';
-import hSeven from '../../assets/hSeven.svg';
-import hSeven2 from '../../assets/hSeven2.svg';
+import hSeven from '../../assets/hSeventh.svg';
+import hSeven2 from '../../assets/hSeventh2.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 

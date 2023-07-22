@@ -1,7 +1,7 @@
 // this is the second question of drive 
 import React from 'react';
-import hsecond from '../../assets/hsecond.svg';
-import hsecond2 from '../../assets/hsecond2.svg';
+import hsecond from '../../assets/hSecond.svg';
+import hsecond2 from '../../assets/hSecond2.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
