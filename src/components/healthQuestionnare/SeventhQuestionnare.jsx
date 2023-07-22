@@ -95,7 +95,7 @@ const SevenQuestionnare = ({
           </div>
         </form>
       </div>
-      <div className="flex items-center justify-center flex-row max-w-4xl w-full p-2 lg:p-6 gap-6">
+      <div className="flex items-center justify-center flex-row max-w-4xl mb-32 md:mb-12 w-full p-2 lg:p-6 gap-6">
         <button
           onClick={prevStep}
           className="button button-white w-full relative bg-[#FF5500] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
