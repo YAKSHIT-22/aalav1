@@ -1,7 +1,7 @@
 // this is the second question of drive 
 import React from 'react';
 import rash from '../../assets/rash.svg';
-import careful from '../../assets/dsecond1.svg';
+import dsecond1 from '../../assets/dsecond1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
@@ -47,7 +47,7 @@ const SecondQuestionnare = ({
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={careful} alt="rash" className="mx-auto h-[15rem]" />
+                <img src={dsecond1} alt="rash" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end">
                   <img
                     src={drivingbutton}
