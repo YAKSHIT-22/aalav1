@@ -1,5 +1,5 @@
 import React from 'react';
-import rash from '../../assets/dthree.svg';
+import dthree from '../../assets/dthree.svg';
 import careful from '../../assets/dthree1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
@@ -47,7 +47,7 @@ const ThirdQuestionnare = ({
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={rash} alt="rash" className="mx-auto w-[20rem]" />
+                <img src={dthree} alt="rash" className="mx-auto w-[20rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end">
                   <img
                     src={drivingbutton}
