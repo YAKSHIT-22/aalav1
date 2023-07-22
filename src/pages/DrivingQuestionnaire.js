@@ -69,9 +69,9 @@ const DrivingQuestionnaire = () => {
   };
 
   const question = [
-    'What categories you belong in?',
-    'What describes you most?',
-    'What describes you most?',
+    'Car Service',
+    'What type of drive u like',
+    'Music you like in the car',
   ];
   const questionnare = [
     <FirstQuestionnare

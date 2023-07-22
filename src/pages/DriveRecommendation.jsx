@@ -1,5 +1,5 @@
 import React from 'react';
-import driveCalculation from '../assets/drivecalculation.svg';
+import driveCalculation from '../assets/driverecommendation.svg';
 import { Link } from 'react-router-dom';
 
 const DriveRecommendation = () => {
@@ -16,31 +16,33 @@ const DriveRecommendation = () => {
           </h1>
         </div>
         <div className="flex items-center sm:flex-row flex-col justify-center sm:justify-between gap-4 w-full xs:w-[85%] lg:w-[75%]">
-          <div className="mx-auto grid min-w-0 max-w-screen-2xl grid-cols-1 gap-6 xs:px-2 lg:px-4 animate-pulse sm:grid-cols-2">
+          <div className="mx-auto grid min-w-0 max-w-screen-2xl grid-cols-1 gap-6 xs:px-2 lg:px-4 sm:grid-cols-2">
             <Link
-              to=""
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
+              to="https://www.bajajfinserv.in/insurance/acko-car-insurance"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
+              <aside className="code p-4 text-2xl">Bajaj Allianz Individual</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
                     alt="driveCalculation"
-                    className="mx-auto h-[20rem]"
+                    className="mx-auto h-[15rem]"
                   />
                 </div>
               </div>
             </Link>
             <Link
-              to=""
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
+              to="https://www.bajajfinserv.in/insurance/bajaj-allianz-car-insurance"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
+              <aside className="code p-4 text-2xl">Bajaj Allianz Family</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
                     alt="driveCalculation"
-                    className="mx-auto h-[20rem]"
+                    className="mx-auto h-[15rem]"
                   />
                 </div>
               </div>

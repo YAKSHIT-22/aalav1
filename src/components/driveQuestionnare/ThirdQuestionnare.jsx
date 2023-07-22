@@ -1,4 +1,3 @@
-// this is the second question of drive 
 import React from 'react';
 import rash from '../../assets/rash.svg';
 import careful from '../../assets/careful.svg';
@@ -11,6 +10,7 @@ const ThirdQuestionnare = ({
   handleChange,
   score,
   setScore,
+  handleSubmit
 }) => {
   const [prevscore, setPrevscore] = React.useState(score);
   const variants = {
@@ -103,7 +103,7 @@ const ThirdQuestionnare = ({
           Prev
         </button>
         <button
-          onClick={nextStep}
+          onClick={handleSubmit}
           className="button button-white w-full relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
         >
           Next
