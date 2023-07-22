@@ -1,3 +1,4 @@
+// this is the registraion details page of the user and is completely user centric
 import React from 'react';
 import { motion } from 'framer-motion';
 
