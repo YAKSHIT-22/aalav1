@@ -1,4 +1,4 @@
-// this is the Seven question of drive 
+// this is the seventh question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hSeven from '../../assets/hSeventh.svg';
 import hSeven2 from '../../assets/hSeventh2.svg';
