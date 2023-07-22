@@ -35,7 +35,7 @@ const App = () => {
       />
       <Route
         exact
-        path="/drive/calculatingScore"
+        path="/health/calculatingScore"
         element={<CalculatingScore1 />}
       />
       <Route

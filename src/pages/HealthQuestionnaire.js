@@ -67,7 +67,7 @@ const HealthQuestionnaire = () => {
         userRef: auth.currentUser.uid,
       };
       await updateDoc(docRef, formDataCopy);
-      navigate('/health/calculatingScore1');
+      navigate('/health/calculatingScore');
     } catch (error) {
       toast.error(error.message);
     }
