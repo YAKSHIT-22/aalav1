@@ -1,4 +1,4 @@
-// this is the Fifth question of drive 
+// this is the fifth question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hFifth from '../../assets/hFifth.svg';
 import hFifth2 from '../../assets/hFifth2.svg';
