@@ -1,3 +1,4 @@
+// this is the about section of the page and contains a brief description of the community
 import React from 'react';
 const CommunityBeliefs = () => {
   return (
