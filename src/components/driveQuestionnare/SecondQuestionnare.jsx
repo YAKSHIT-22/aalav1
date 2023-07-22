@@ -1,7 +1,7 @@
 // this is the second question of drive 
 import React from 'react';
 import rash from '../../assets/rash.svg';
-import careful from '../../assets/careful.svg';
+import careful from '../../assets/dsecond1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
@@ -36,7 +36,7 @@ const SecondQuestionnare = ({
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">RASH DRIVER</aside>
+                  <aside className="code p-1">Staying at home</aside>
                   <input
                     type="radio"
                     id="1"
@@ -47,12 +47,12 @@ const SecondQuestionnare = ({
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={rash} alt="rash" className="mx-auto h-[15rem]" />
+                <img src={careful} alt="rash" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end">
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -65,7 +65,7 @@ const SecondQuestionnare = ({
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">CAREFUL DRIVER</aside>
+                  <aside className="code p-1">Long drives</aside>
                   <input
                     type="radio"
                     id="2"
@@ -79,7 +79,7 @@ const SecondQuestionnare = ({
                   />
                 </div>
                 <img
-                  src={careful}
+                  src={rash}
                   alt="careful"
                   className="mx-auto h-[15rem]"
                 />
@@ -87,7 +87,7 @@ const SecondQuestionnare = ({
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -95,7 +95,7 @@ const SecondQuestionnare = ({
           </div>
         </form>
       </div>
-      <div className="flex items-center justify-center flex-row max-w-4xl w-full p-2 mb-32 md:mb-12 lg:p-6 gap-6">
+      <div className="flex items-center justify-center flex-row max-w-4xl w-[90%] p-2 mb-32 md:mb-12 lg:p-6 gap-6">
         <button
           onClick={prevStep}
           className="button button-white w-full relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"

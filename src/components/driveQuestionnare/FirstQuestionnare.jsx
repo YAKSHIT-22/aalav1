@@ -1,6 +1,6 @@
 import React from 'react';
-import heavy from '../../assets/heavy.svg';
-import light from '../../assets/light.svg';
+import heavy from '../../assets/dfirst.svg';
+import light from '../../assets/dfirst1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
@@ -28,7 +28,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">HEAVY VEHICLE DRIVER</aside>
+                  <aside className="code p-1 text-2xl">Once in a month</aside>
                   <input
                     type="radio"
                     id="1"
@@ -44,7 +44,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -57,7 +57,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
             >
               <div className="flex h-full flex-col justify-center gap-2">
                 <div className="flex items-center justify-between w-full">
-                  <aside className="code p-1">LIGHT VEHICLE DRIVER</aside>
+                  <aside className="code p-1 text-2xl">Once a 6 month</aside>
                   <input
                     type="radio"
                     id="2"
@@ -75,7 +75,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
                   <img
                     src={drivingbutton}
                     alt="drivingbutton"
-                    className="object-cover h-[2.5rem] w-[2.5rem]"
+                    className="object-cover opacity-0 h-[2.5rem] w-[2.5rem]"
                   />
                 </div>
               </div>
@@ -85,7 +85,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
       </div>
       <button
         onClick={nextStep}
-        className="button button-white max-w-xl w-full mb-32 md:mb-12 relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
+        className="button button-white max-w-xl w-[90%] mb-32 md:mb-12 relative bg-[#00febe] text-white inline-flex h-[3rem] items-center justify-center gap-[1rem] rounded-lg border-opacity-[1] border-[rgb(242,246,250,0.1)] px-[2.5rem] text-center text-xl font-[500] transition-all tracking-wide"
       >
         Next
       </button>
