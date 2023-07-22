@@ -1,4 +1,4 @@
-// this is the Sixth question of drive 
+// this is the sixth question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hSixth from '../../assets/hSixth.svg';
 import hSixth2 from '../../assets/hSixth2.svg';
