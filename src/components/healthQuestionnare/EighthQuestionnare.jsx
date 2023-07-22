@@ -1,4 +1,4 @@
-// this is the first question for lifestyle and habbits and will be verified further
+// this is the eighth question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hEighth from '../../assets/hEighth.svg';
 import hEighth2 from '../../assets/hEighth2.svg';
