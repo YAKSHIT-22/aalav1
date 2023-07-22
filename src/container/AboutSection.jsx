@@ -1,3 +1,4 @@
+// this is the about section of the page and contains a brief description of the product
 import React from 'react';
 
 const AboutSection = () => {
