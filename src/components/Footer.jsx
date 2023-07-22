@@ -1,3 +1,4 @@
+// this is the footer and contains all the information for contact and rights
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
