@@ -1,3 +1,4 @@
+// this is the about section of the page and contains a brief description of the motp part of the community
 import React from 'react';
 import { Link } from 'react-router-dom';
 
