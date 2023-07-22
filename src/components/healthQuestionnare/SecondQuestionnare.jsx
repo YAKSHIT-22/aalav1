@@ -1,4 +1,4 @@
-// this is the second question of drive 
+// this is the secong question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hsecond from '../../assets/hSecond.svg';
 import hsecond2 from '../../assets/hSecond2.svg';
