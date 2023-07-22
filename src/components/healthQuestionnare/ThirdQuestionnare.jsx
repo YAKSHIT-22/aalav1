@@ -1,4 +1,4 @@
-// this is the Third question of drive 
+// this is the third question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hThird from '../../assets/hThree.svg';
 import hThird2 from '../../assets/hThree2.svg';
