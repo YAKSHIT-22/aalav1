@@ -142,35 +142,7 @@ const Profile = () => {
                   </Link>
                 </article>
               </li>
-              <li className="">
-                <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
-                  <Link
-                    to=""
-                    rel="prefetch"
-                    className="block outline-none"
-                  >
-                    <header>
-                      <time
-                        className="code text-gray-200"
-                        datetime="2023-06-07T00:00:00.000Z"
-                      >
-                        June 22, 2023
-                      </time>
-                    </header>
-
-                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="" className="my-8" loading="lazy" decoding="async"/>
-
-                    <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
-                      <h3 className="heading-4 md:heading-3">
-                      Leaderboards
-                      </h3>
-                      <p className="text-gray-200">
-                      Leaderboards to showcase top-performing drivers based on their driving scores and streaks.
-                      </p>
-                    </div>
-                  </Link>
-                </article>
-              </li>
+              
               <li className="">
                 <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
                   <Link
@@ -195,6 +167,35 @@ const Profile = () => {
                       </h3>
                       <p className="text-gray-200">
                       Create a scoring system that evaluates each user's driving behavior based on factors such as speed, acceleration, braking, adherence to traffic rules, and overall safety. 
+                      </p>
+                    </div>
+                  </Link>
+                </article>
+              </li>
+              <li className="">
+                <article className="border border-gray-500 bg-[rgb(35,38,45)] p-5 outline-pink-light transition-transform duration-300 ease-out focus-within:outline hover:scale-[1.03]">
+                  <Link
+                    to=""
+                    rel="prefetch"
+                    className="block outline-none"
+                  >
+                    <header>
+                      <time
+                        className="code text-gray-200"
+                        datetime="2023-06-07T00:00:00.000Z"
+                      >
+                        June 22, 2023
+                      </time>
+                    </header>
+
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="" className="my-8" loading="lazy" decoding="async"/>
+
+                    <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
+                      <h3 className="heading-4 md:heading-3">
+                      Leaderboards
+                      </h3>
+                      <p className="text-gray-200">
+                      Leaderboards to showcase top-performing drivers based on their driving scores and streaks.
                       </p>
                     </div>
                   </Link>
