@@ -1,3 +1,4 @@
+// this is the first question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hfirst1 from '../../assets/hFirst1.svg';
 import hfirst from '../../assets/hFirst.svg';
