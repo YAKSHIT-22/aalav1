@@ -22,6 +22,7 @@ const HealthRecommendation = () => {
               className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
+                <aside className="code p-1 text-2xl">BAJAJ ALLIANZ</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
@@ -36,6 +37,7 @@ const HealthRecommendation = () => {
               className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
+              <aside className="code p-1 text-2xl">BAJAJ ALLIANZ</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
