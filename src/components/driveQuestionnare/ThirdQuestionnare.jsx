@@ -1,6 +1,6 @@
 import React from 'react';
 import dthree from '../../assets/dthree.svg';
-import careful from '../../assets/dthree1.svg';
+import dthree1 from '../../assets/dthree1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
@@ -79,7 +79,7 @@ const ThirdQuestionnare = ({
                   />
                 </div>
                 <img
-                  src={careful}
+                  src={dthree1}
                   alt="careful"
                   className="mx-auto w-[20rem]"
                 />
