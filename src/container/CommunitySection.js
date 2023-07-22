@@ -1,3 +1,4 @@
+// this is the about section of the page and contains skeleton of the page community
 import React from 'react';
 import community from '../assets/community-cloud.svg';
 import { Link } from 'react-router-dom';
