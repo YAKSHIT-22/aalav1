@@ -18,7 +18,7 @@ const CalculatingScore = () => {
       <div className="flex flex-col items-center gap-2">
         <div className="flex items-center justify-center p-4 w-full">
           <h1 className="text-5xl px-2 s:px-4 text-center text-gray-50 font-bold sm:max-w-4xl uppercase">
-            Your Score is analysing! Please wait..
+            Optimizing Insurance for you!
           </h1>
         </div>
         <div className="flex items-center sm:flex-row flex-col justify-center sm:justify-between gap-4 w-full xs:w-[85%] lg:w-[75%]">
