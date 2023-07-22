@@ -19,7 +19,7 @@ const DriveRecommendation = () => {
           <div className="mx-auto grid min-w-0 max-w-screen-2xl grid-cols-1 gap-6 xs:px-2 lg:px-4 sm:grid-cols-2">
             <Link
               to="https://www.bajajfinserv.in/insurance/acko-car-insurance"
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-4 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
               <aside className="code p-4 text-2xl">Bajaj Allianz Individual</aside>
@@ -34,7 +34,7 @@ const DriveRecommendation = () => {
             </Link>
             <Link
               to="https://www.bajajfinserv.in/insurance/bajaj-allianz-car-insurance"
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-4 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
               <aside className="code p-4 text-2xl">Bajaj Allianz Family</aside>
