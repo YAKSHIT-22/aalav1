@@ -17,7 +17,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
       initial="hidden"
       animate="enter"
       exit="exit"
-      transition={{ duration: 2, ease: 'easeInOut' }}
+      transition = {{ duration: 2, ease: 'easeInOut' }}
       className="flex items-center justify-center flex-col gap-2 w-full"
     >
       <div className="flex items-center sm:flex-row flex-col justify-center sm:justify-between gap-4 w-full xs:w-[85%] lg:w-[75%] p-2 lg:p-6">
