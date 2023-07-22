@@ -1,4 +1,4 @@
-// this is the Fourth question of drive 
+// this is the fourth question for lifestyle and habbits and will be verified further
 import React from 'react';
 import hFourth from '../../assets/hFourth.svg';
 import hFourth2 from '../../assets/hFourth2.svg';
