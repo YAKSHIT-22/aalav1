@@ -1,6 +1,6 @@
 import React from 'react';
 import dfirst from '../../assets/dfirst.svg';
-import light from '../../assets/dfirst1.svg';
+import dfirst1 from '../../assets/dfirst1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
 
