@@ -1,5 +1,5 @@
 import React from 'react';
-import driveCalculation from '../assets/drivecalculation.svg';
+import driveCalculation from '../assets/hreccomendation.svg';
 import { Link } from 'react-router-dom';
 
 const HealthRecommendation = () => {
@@ -19,10 +19,10 @@ const HealthRecommendation = () => {
           <div className="mx-auto grid min-w-0 max-w-screen-2xl grid-cols-1 gap-6 xs:px-2 lg:px-4 animate-pulse sm:grid-cols-2">
             <Link
               to="https://www.bajajfinserv.in/insurance/bajaj-allianz-extra-care-plus-plan"
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
-                <aside className="code p-1 text-2xl">BAJAJ ALLIANZ</aside>
+                <aside className="code p-4 text-2xl">Bajaj Allianz Individual</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
@@ -34,10 +34,10 @@ const HealthRecommendation = () => {
             </Link>
             <Link
               to="https://www.bajajfinserv.in/insurance/bajaj-allianz-health-guard-insurance-plan"
-              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
+              className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 p-3 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
-              <aside className="code p-1 text-2xl">BAJAJ ALLIANZ</aside>
+              <aside className="code p-4 text-2xl">Bajaj Allianz Family</aside>
                 <div className="flex h-full flex-col justify-center gap-2">
                   <img
                     src={driveCalculation}
