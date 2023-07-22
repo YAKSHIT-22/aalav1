@@ -1,3 +1,4 @@
+// this is the about section of the page and contains a UI of the hero section
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo.svg';
