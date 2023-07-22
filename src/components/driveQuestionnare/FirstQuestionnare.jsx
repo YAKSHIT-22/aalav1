@@ -1,5 +1,5 @@
 import React from 'react';
-import heavy from '../../assets/dfirst.svg';
+import dfirst from '../../assets/dfirst.svg';
 import light from '../../assets/dfirst1.svg';
 import drivingbutton from '../../assets/drivingbutton.svg';
 import { motion } from 'framer-motion';
