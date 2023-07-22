@@ -158,7 +158,7 @@ const Profile = () => {
                       </time>
                     </header>
 
-                    {/* <img src="/_astro/blog-hero-image-updates.3feaf2f7.webp" width="1500" height="643" alt="Better Images in Astro" className="my-8" loading="lazy" decoding="async"> */}
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="Better Images in Astro" className="my-8" loading="lazy" decoding="async"/>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
