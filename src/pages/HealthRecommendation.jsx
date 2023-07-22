@@ -18,7 +18,7 @@ const HealthRecommendation = () => {
         <div className="flex items-center sm:flex-row flex-col justify-center sm:justify-between gap-4 w-full xs:w-[85%] lg:w-[75%]">
           <div className="mx-auto grid min-w-0 max-w-screen-2xl grid-cols-1 gap-6 xs:px-2 lg:px-4 animate-pulse sm:grid-cols-2">
             <Link
-              to=""
+              to="https://www.bajajfinserv.in/insurance/bajaj-allianz-extra-care-plus-plan"
               className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">
@@ -33,7 +33,7 @@ const HealthRecommendation = () => {
               </div>
             </Link>
             <Link
-              to=""
+              to="https://www.bajajfinserv.in/insurance/bajaj-allianz-health-guard-insurance-plan"
               className="noise-panel flex flex-col min-w-0 relative text-gray-200 md:hover:scale-105 transition ease-in-out duration-500"
             >
               <div className="flex flex-1 flex-col">

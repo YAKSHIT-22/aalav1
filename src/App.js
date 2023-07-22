@@ -11,6 +11,8 @@ import CalculatingScore from './pages/CalculatingScore';
 import Profile from './pages/Profile';
 import DriveRecommendation from './pages/DriveRecommendation';
 import HealthQuestionnaire from './pages/HealthQuestionnaire';
+import HealthRecommendation from './pages/HealthRecommendation';
+import CalculatingScore1 from './pages/CalculatingScore1';
 // this is a react app 
 const App = () => {
   return (
@@ -33,6 +35,11 @@ const App = () => {
       />
       <Route
         exact
+        path="/drive/calculatingScore"
+        element={<CalculatingScore1 />}
+      />
+      <Route
+        exact
         path="/registration/drive/questionnaire"
         element={<DrivingQuestionnaire />}
       />
@@ -45,6 +52,11 @@ const App = () => {
         exact
         path="/drive/recommendations"
         element={<DriveRecommendation />}
+      />
+      <Route
+        exact
+        path="/health/recommendations"
+        element={<HealthRecommendation/>}
       />
     </Routes>
   );
