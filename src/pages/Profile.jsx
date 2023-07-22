@@ -129,7 +129,7 @@ const Profile = () => {
                       </time>
                     </header>
 
-                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="725" height="241" alt="Content for Everyone" className="my-8" loading="lazy" decoding="async"/>
+                    <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="725" height="241" alt="" className="my-8" loading="lazy" decoding="async"/>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
@@ -158,7 +158,7 @@ const Profile = () => {
                       </time>
                     </header>
 
-                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="Better Images in Astro" className="my-8" loading="lazy" decoding="async"/>
+                    <img src="https://images.unsplash.com/photo-1498837167922-ddd27525d352?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="" className="my-8" loading="lazy" decoding="async"/>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
@@ -187,7 +187,7 @@ const Profile = () => {
                       </time>
                     </header>
 
-                    <img src="https://plus.unsplash.com/premium_photo-1670505059783-806c0708bb31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="WebStorm announces official support for Astro" className="my-8" loading="lazy" decoding="async"/>
+                    <img src="https://plus.unsplash.com/premium_photo-1670505059783-806c0708bb31?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80" width="1500" height="643" alt="" className="my-8" loading="lazy" decoding="async"/>
 
                     <div className="mt-6 grid gap-x-16 gap-y-4 md:grid-cols-2">
                       <h3 className="heading-4 md:heading-3">
