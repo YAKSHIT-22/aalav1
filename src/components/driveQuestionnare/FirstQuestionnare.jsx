@@ -70,7 +70,7 @@ const FirstQuestionnare = ({ nextStep, handleChange, score, setScore }) => {
                     className="p-3 flex items-center justify-center cursor-pointer"
                   />
                 </div>
-                <img src={light} alt="light" className="mx-auto h-[15rem]" />
+                <img src={dfirst1} alt="light" className="mx-auto h-[15rem]" />
                 <div className="heading-3 p-2 flex w-full justify-end ">
                   <img
                     src={drivingbutton}
