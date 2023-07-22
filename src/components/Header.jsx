@@ -1,3 +1,4 @@
+// this is the nav bar and contains all the information for pages and features
 import React, { useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { HashLink } from 'react-router-hash-link';
